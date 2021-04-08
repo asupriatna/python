@@ -9,9 +9,8 @@ import pandas as Pandas
 # !python -m spacy download en
 
 # following line is optional for custom vocabulary installation
-# you can use nlp = spacy.load('en')
-
 nlp = spacy.load('en_core_web_sm')
+
 sentence = "The brown fox is quick and he is jumping over the lazy dog"
 words = sentence.split()
 Numpy.random.shuffle(words)
