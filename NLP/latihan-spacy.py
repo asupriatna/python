@@ -10,4 +10,4 @@ doc = nlp(sentence)
 f = open("result_spacy.html", "a")
 f.write(spacy.displacy.render(doc, style="dep", page="true"))
 #f.write(displacy.serve(doc, style="dep"))
-f.close()_spacy
+f.close()
