@@ -63,3 +63,8 @@ exit
 ```
 pipenv run *
 ```
+## Check Pacakge Installed
+```
+pip freeze
+```
+
