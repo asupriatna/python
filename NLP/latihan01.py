@@ -11,7 +11,7 @@ import pandas as Pandas
 nlp = spacy.load('en_core_web_sm')
 
 # Split words
-sentence = "The brown fox is quick and he is jumping over the lazy dog"
+sentence = "You can have data without information, but you cannot have information without data"
 words = sentence.split()
 Numpy.random.shuffle(words)
 print(words)

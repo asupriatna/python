@@ -11,11 +11,10 @@ import pandas as Pandas
 nlp = spacy.load('en_core_web_sm')
 
 sentence = "You can have data without information, but you cannot have information without data"
-words = sentence.split()
 
 #pos tagging
-pos_tags = nltk.pos_tag(sentence.split())
-data_frame = Pandas.DataFrame(pos_tags).T
+spacy_pos_tagged = [(word, word.tag_, word.pos_) for word in nlp(sentence)]
+data_frame = Pandas.DataFrame(spacy_pos_tagged).T
 print(data_frame)
 
 
