@@ -8,6 +8,7 @@ nltk = "*"
 spacy = "*"
 numpy = "*"
 pandas = "*"
+matplotlib = "*"
 
 [dev-packages]
 
