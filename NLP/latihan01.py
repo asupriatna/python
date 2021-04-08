@@ -10,10 +10,9 @@ import pandas as Pandas
 # following line is optional for custom vocabulary installation
 nlp = spacy.load('en_core_web_sm')
 
+# Split words
 sentence = "The brown fox is quick and he is jumping over the lazy dog"
 words = sentence.split()
-pos_tags = nltk.pos_tag(sentence.split())
-data_frame = Pandas.DataFrame(pos_tags).T
-print(data_frame)
-
+Numpy.random.shuffle(words)
+print(words)
 

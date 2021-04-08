@@ -12,6 +12,10 @@ nlp = spacy.load('en_core_web_sm')
 
 sentence = "The brown fox is quick and he is jumping over the lazy dog"
 words = sentence.split()
-Numpy.random.shuffle(words)
-print(words)
+
+#pos tagging
+pos_tags = nltk.pos_tag(sentence.split())
+data_frame = Pandas.DataFrame(pos_tags).T
+print(data_frame)
+
 
