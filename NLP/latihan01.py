@@ -15,3 +15,5 @@ words = sentence.split()
 pos_tags = nltk.pos_tag(sentence.split())
 data_frame = Pandas.DataFrame(pos_tags).T
 print(data_frame)
+
+
