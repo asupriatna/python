@@ -7,7 +7,6 @@ import pandas as Pandas
 # !pipenv install nltk spacy numpy pandas
 # !python -m spacy download en_core_web_sm
 # !python -m spacy download en
-
 # following line is optional for custom vocabulary installation
 nlp = spacy.load('en_core_web_sm')
 
