@@ -9,6 +9,7 @@ spacy = "*"
 numpy = "*"
 pandas = "*"
 matplotlib = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
